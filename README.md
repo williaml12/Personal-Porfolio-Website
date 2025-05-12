@@ -9,13 +9,12 @@
 - I highly recommend to use [Github Pages](https://pages.github.com/) to deploy the website the EASIEST WAY.
 - To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
 - Push the generated code to the `master` or `main` branch of this repository.
-
 ## Sections 📚
 ✔️ Home\
 ✔️ About\
 ✔️ Skills \
 ✔️ Projects \
 ✔️ Experience\
-✔️ Contact \
+✔️ Contact 
 
 To view a live example, **[click here](https://williaml12.github.io/Personal-Profolio-Website/)**
