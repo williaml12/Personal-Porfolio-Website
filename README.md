@@ -1,5 +1,5 @@
 # Personal Porfolio Website
-This is personal portfolio website crafted with HTML. This site showcases my professional Experience, skills, projects, contact info, and educational background. 
+This is a personal portfolio website crafted with HTML. This site showcases my professional Experience, skills, projects, contact info, and educational background. 
 
 ## Showcase the website
 ![Home_page](./images/Website_Preview.jpg)
