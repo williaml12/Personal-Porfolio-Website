@@ -1,5 +1,5 @@
 # Personal Porfolio Website
-Build your portfolio with HTML. Showcase the coding skills to recruiters with experience and projects.
+Build your portfolio with HTML. Showcase the coding skills to recruiters with work experience, and projects.
 
 ## Showcase the website
 ![Home_page](./images/Website_Preview.jpg)
