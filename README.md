@@ -1,4 +1,4 @@
-# Personal-Profolio-Website
+# Personal Porfolio Website
 
 ## Showcase the website
 ![Home_page](./images/Website_Preview.jpg)
