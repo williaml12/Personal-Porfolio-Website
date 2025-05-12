@@ -17,4 +17,4 @@
 ✔️ Experience\
 ✔️ Contact 
 
-To view a live example, **[click here](https://williaml12.github.io/Personal-Profolio-Website/)**
+To view a live example, **[click here](https://williaml12.github.io/Personal-Porfolio-Website/)**
