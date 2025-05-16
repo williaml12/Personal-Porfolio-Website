@@ -81,6 +81,32 @@
             outline: none;
             box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
         }
+        
+        .floating-img {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        @keyframes bounce-slow {
+            0%, 100% {
+                transform: translateY(0);
+                animation-timing-function: cubic-bezier(0.8,0,1,1);
+            }
+            50% {
+                transform: translateY(24px);
+                animation-timing-function: cubic-bezier(0,0,0.2,1);
+            }
+        }
+        .animate-bounce-slow {
+            animation: bounce-slow 2s infinite;
+        }
     </style>
 </head>
 <body class="font-sans antialiased text-gray-800">
@@ -121,7 +147,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+    <section id="home" class="hero-section pt-48 pb-32 px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0">
@@ -134,12 +160,15 @@
                     </div>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
-                        <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Alex Carter" class="w-full h-full object-cover"> -->
-                        <img src="images/William.png" alt="William Lu" class="w-full h-full object-cover">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl floating-img">
+                        <img src="/images/William.png" alt="William Lu" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
+            <div class="mt-12 text-center">
+                <a href="#about" class="text-gray-700 hover:text-indigo-600 transition">
+                    <i class="fas fa-chevron-down text-3xl animate-bounce-slow"></i>
+                </a>
         </div>
     </section>
 
@@ -200,7 +229,7 @@
                     
                     <div class="flex flex-wrap gap-4">
                         <!-- <a href="#" class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition"> -->
-                        <a href="Tandon Bridge Resume V4.pdf" download class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition">
+                        <a href="/Tandon Bridge Resume V4.pdf" download class="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition">
                             <i class="fas fa-download mr-2"></i> Download Resume
                         </a>
                         <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-medium hover:bg-blue-700 transition">
@@ -874,5 +903,12 @@
             observer.observe(skillsSection);
         }
     </script>
+
+    <!-- Scroll Down Indicator -->
+    <div class="mt-16 animate-bounce-slow">
+        <a href="#about" class="text-white">
+            <i class="fas fa-chevron-down text-3xl"></i>
+        </a>
+    </div>
 </body>
 </html>
