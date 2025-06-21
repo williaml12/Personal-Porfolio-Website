@@ -35,7 +35,7 @@ cd Personal-Porfolio-Website
 **Open in Browser**
 Open `index.html` in your browser
 
-              or
+or
 
 Visit the live site: https://williaml12.github.io/Personal-Porfolio-Website/
 
