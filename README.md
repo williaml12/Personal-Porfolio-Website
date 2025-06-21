@@ -56,5 +56,5 @@ Visit the live site: https://williaml12.github.io/Personal-Porfolio-Website/
 Contributions are welcome! Feel free to fork the repo and submit a pull request for improvements.
 If you find a bug or want to suggest an enhancement, feel free to open an issue.
 
-##📄 License
+## 📄 License
 This project is open source and available under the MIT License.
