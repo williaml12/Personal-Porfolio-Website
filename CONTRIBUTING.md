@@ -33,4 +33,16 @@ git commit -m "Description of changes"
 git push origin your-feature-branch
 ```
 7. **Submit a Pull Request (PR)** — include a short description of what you changed and why
-8. 
+
+## Style Guidelines
+- Keep HTML, CSS, and JavaScript well-organized and commented
+- Match the style and structure of the existing code
+- Keep the portfolio simple and elegant (avoid unnecessary bloat)
+
+## Code of Conduct
+Please be respectful and professional in all communications and contributions.
+
+-----
+
+Thank you for your help in improving this project! 🚀
+
