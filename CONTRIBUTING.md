@@ -15,26 +15,26 @@ Since this project represents my personal work, contributions will be reviewed c
 ## Getting Started
 1. **Fork the repository**
 2. **Clone your fork**
-```
+```bash
 git clone https://github.com/YOUR_USERNAME/Personal-Porfolio-Website.git
 cd Personal-Porfolio-Website
 ```
 3. **Create a new branch**
-```
+ ```bash
 git checkout -b your-feature-branch
 ```
 4. **Make your changes**
 5. **Commit your changes**
-```
+ ```bash
 git commit -m "Description of changes"
 ```
 6. **Push to your fork**
-```
+ ```bash
 git push origin your-feature-branch
 ```
 7. **Submit a Pull Request (PR)** — include a short description of what you changed and why
 
-## Style Guidelines
+## Code Style Guidelines
 - Keep HTML, CSS, and JavaScript well-organized and commented
 - Match the style and structure of the existing code
 - Keep the portfolio simple and elegant (avoid unnecessary bloat)
