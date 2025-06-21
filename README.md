@@ -7,18 +7,54 @@ It is built as a simple, responsive webpage to highlight my experience in web de
 ## Showcase the website
 ![Home_page](./images/Website_Preview.jpg)
 
-## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
-- Add or remove images from `images` directory as per your requirement.
-- I highly recommend to use [Github Pages](https://pages.github.com/) to deploy the website the EASIEST WAY.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
-- Push the generated code to the `master` or `main` branch of this repository.
-## Sections 📚
-✔️ Home\
-✔️ About\
-✔️ Skills \
-✔️ Projects \
-✔️ Experience\
-✔️ Contact 
+## ✨ Features
+- 📄 About Me section
+- 💼 Portfolio / Projects showcase
+- 🛠️ Skills & Technologies
+- 📞 Contact Information
+- 📱 Responsive design — mobile & desktop ready
+- 🎨 Clean and modern design
 
-To view a live example, **[click here](https://williaml12.github.io/Personal-Porfolio-Website/)**
+## 📂 Project Structure
+```
+Personal-Porfolio-Website/
+├── index.html         # Main page
+├── /css               # Stylesheets
+├── /images            # Images and assets
+├── /js                # JavaScript files
+├── README.md          # Project documentation
+```
+
+## 🚀 Getting Started
+**Clone the Repository**
+```
+git clone https://github.com/williaml12/Personal-Porfolio-Website.git
+cd Personal-Porfolio-Website
+```
+
+**Open in Browser**
+Open `index.html` in your browser
+
+or
+
+Visit the live site: https://williaml12.github.io/Personal-Porfolio-Website/
+
+## 🛠️ Built With
+- HTML5
+- CSS3
+- JavaScript
+- Deployed with **GitHub Pages**
+
+## 📌 TODO / Future Improvements
+- Add blog or writing section
+- Add downloadable resume/CV
+- Add animations or transitions
+- Add SEO optimizations (meta tags, structured data)
+- Improve accessibility (ARIA roles, keyboard navigation)
+
+## 🤝 Contributions
+Contributions are welcome! Feel free to fork the repo and submit a pull request for improvements.
+If you find a bug or want to suggest an enhancement, feel free to open an issue.
+
+##📄 License
+This project is open source and available under the MIT License.
