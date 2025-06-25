@@ -5,7 +5,7 @@ It is built as a simple, responsive webpage to highlight my experience in web de
 👉 **Live Demo:** https://williaml12.github.io/Personal-Porfolio-Website/
 
 ## Showcase the website
-![Home_page](./images/Website_Preview.jpg)
+![Home_page](./images/Website_Preview_Updated.jpg)
 
 ## ✨ Features
 - 📄 About Me section
